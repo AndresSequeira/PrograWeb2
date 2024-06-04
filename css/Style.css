@@ -1,0 +1,35 @@
+body{
+    /* arriba derecha abajo izquierda*/
+margin: 40px 60px 20px 60px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+h1, h2{
+    border-bottom: 1px solid grey;
+}
+
+th{
+  background-color: rgb(206, 206, 206);
+  border: 1px solid grey;
+}
+
+td{
+    min-width: 50px;
+    text-align: center;
+    border: 1px solid grey;
+}
+
+
+table{
+    border-collapse: collapse;
+    border: 1px solid grey;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+td:nth-child(1) {
+    width: 105px;
+    text-align: left;
+  }
